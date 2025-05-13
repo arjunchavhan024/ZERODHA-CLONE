@@ -1,0 +1,94 @@
+.uni-container {
+  padding: 40px 20px;
+}
+
+.head h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.head p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* Grid styling */
+.uni-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Each card */
+.uni-col-4 {
+  flex: 1 1 calc(33.333% - 20px);
+  background-color: #f9f9f9;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.uni-col-4 img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.uni-col-4 p {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Responsive layout */
+@media (max-width: 992px) {
+  .uni-col-4 {
+    flex: 1 1 calc(50% - 20px);
+  }
+
+  .head h1 {
+    font-size: 30px;
+  }
+
+  .head p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .uni-col-4 {
+    flex: 1 1 100%;
+  }
+
+  .head h1 {
+    font-size: 26px;
+  }
+
+  .head p {
+    font-size: 15px;
+  }
+}
+
+/* Primary styled button */
+.button {
+  background-color: #387ed1;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2a5da8;
+}
