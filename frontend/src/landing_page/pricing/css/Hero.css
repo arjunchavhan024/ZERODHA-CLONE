@@ -1,0 +1,42 @@
+/* Base styling for larger screens */
+.pricing-hero-head h1 {
+  font-size: 45px;
+  color: #424242;
+  margin: 50px 0 15px 0;
+  /* font-weight: 600; */
+  line-height: 1.2;
+}
+
+.pricing-hero-head p {
+  font-size: 23px;
+  color: #9b9b9b;
+  margin-bottom: 30px;
+}
+
+/* Responsive tweaks for tablets */
+@media (max-width: 992px) {
+  .pricing-hero-head h1 {
+    font-size: 38px;
+    margin-top: 40px;
+  }
+
+  .pricing-hero-head p {
+    font-size: 20px;
+  }
+}
+
+/* Responsive tweaks for mobile */
+@media (max-width: 576px) {
+  .pricing-hero-head h1 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .pricing-hero-head p {
+    font-size: 18px;
+  }
+
+  .pricing-hero-head {
+    padding: 0 15px;
+  }
+}

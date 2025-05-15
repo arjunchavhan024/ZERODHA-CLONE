@@ -1,0 +1,63 @@
+/* Base styles for desktop */
+.equity {
+  text-align: center;
+  padding: 20px;
+}
+
+.equity img {
+  width: 220px;
+  max-width: 100%;
+  margin: 15px auto;
+  display: block;
+}
+
+.equity h1 {
+  font-size: 24px;
+  color: #424242;
+  /* font-weight: 600; */
+  margin: 10px 0;
+}
+
+.equity p {
+  font-size: 16px;
+  color: #666666;
+  padding: 0 10px;
+}
+
+/* Medium screens (tablets) */
+@media (max-width: 992px) {
+  .equity h1 {
+    font-size: 22px;
+  }
+
+  .equity p {
+    font-size: 15px;
+  }
+}
+
+/* Small screens (mobiles) */
+@media (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col-4 {
+    width: 90%;
+    max-width: 400px;
+    margin-bottom: 30px;
+  }
+
+  .equity img {
+    width: 180px;
+  }
+
+  .equity h1 {
+    font-size: 20px;
+  }
+
+  .equity p {
+    font-size: 14px;
+  }
+}
