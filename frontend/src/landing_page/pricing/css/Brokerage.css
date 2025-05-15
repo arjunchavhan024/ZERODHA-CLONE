@@ -1,0 +1,68 @@
+.brokerage {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.brokerage-link {
+  text-decoration: none;
+  color: #2c3e50;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.brokerage-link h3 {
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.brokerage-link:hover h3 {
+  color: #007bff;
+}
+
+.brokerage ul {
+  padding-left: 0;
+  list-style-type: disc;
+}
+
+.brokerage ul li {
+  margin: 10px 0 0 25px;
+  color: #666666;
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.8;
+}
+
+/* Tablet (<= 992px) */
+@media (max-width: 992px) {
+  .brokerage-link h3 {
+    font-size: 22px;
+  }
+
+  .brokerage ul li {
+    font-size: 15px;
+  }
+}
+
+/* Mobile (<= 768px) */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .col-8,
+  .col-4 {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .brokerage-link h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .brokerage ul li {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+}
