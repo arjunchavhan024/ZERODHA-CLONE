@@ -12,28 +12,25 @@ const Brokerage = () => {
           </Link>
           <ul>
             <li>
-              Call & tred RMS auto-squareoff: Additinol charges of ₹50 + GST per
-              order.
+              Call & Trade and RMS auto-squareoff:Additional charges of ₹50 +
+              GST per order.
+            </li>
+            <li>Digital contract notes will be sent via e-mail.</li>
+            <li>
+              Physical copies of contract notes, if required, shall be charged
+              ₹20 per contract note. Courier charges apply.
             </li>
             <li>
-              Call & tred RMS auto-squareoff: Additinol charges of ₹50 + GST per
-              order.
+              For NRI account (non-PIS), 0.5% or ₹100 per executed order for
+              equity (whichever is lower).
             </li>
             <li>
-              Call & tred RMS auto-squareoff: Additinol charges of ₹50 + GST per
-              order.
+              For NRI account (PIS), 0.5% or ₹200 per executed order for equity
+              (whichever is lower).
             </li>
             <li>
-              Call & tred RMS auto-squareoff: Additinol charges of ₹50 + GST per
-              order.
-            </li>
-            <li>
-              Call & tred RMS auto-squareoff: Additinol charges of ₹50 + GST per
-              order.
-            </li>
-            <li>
-              Call & tred RMS auto-squareoff: Additinol charges of ₹50 + GST per
-              order.
+              If the account is in debit balance, any order placed will be
+              charged ₹40 per executed order instead of ₹20 per executed order.
             </li>
           </ul>
         </div>

@@ -28,7 +28,7 @@
 .nav-item a {
   font-size: 15px;
   font-weight: 500;
-  color: #878282 !important;
+  color: #878282;
   margin-left: 20px;
   transition: color 0.3s ease;
 }
