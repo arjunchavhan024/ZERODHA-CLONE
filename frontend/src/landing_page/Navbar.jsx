@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -23,45 +23,69 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link
+              <NavLink
                 className="nav-link active"
                 aria-current="page"
                 to="/signup"
+                style={({ isActive }) => ({
+                  color: isActive ? "#387ed1" : "#000",
+                  fontWeight: isActive ? "bold" : "normal",
+                })}
               >
                 Sginup
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/about">
+              <NavLink
+                className="nav-link active"
+                aria-current="page"
+                to="/about"
+                style={({ isActive }) => ({
+                  color: isActive ? "#387ed1" : "#000",
+                  fontWeight: isActive ? "bold" : "normal",
+                })}
+              >
                 About
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link
+              <NavLink
                 className="nav-link active"
                 aria-current="page"
                 to="/products"
+                style={({ isActive }) => ({
+                  color: isActive ? "#387ed1" : "#000",
+                  fontWeight: isActive ? "bold" : "normal",
+                })}
               >
                 Products
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link
+              <NavLink
                 className="nav-link active"
                 aria-current="page"
                 to="/pricing"
+                style={({ isActive }) => ({
+                  color: isActive ? "#387ed1" : "#000",
+                  fontWeight: isActive ? "bold" : "normal",
+                })}
               >
                 Pricing
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link
+              <NavLink
                 className="nav-link active"
                 aria-current="page"
                 to="/support"
+                style={({ isActive }) => ({
+                  color: isActive ? "#387ed1" : "#000",
+                  fontWeight: isActive ? "bold" : "normal",
+                })}
               >
                 Support
-              </Link>
+              </NavLink>
             </li>
             <li className="menu">
               <Link className="nav-link active" aria-current="page" to="/">

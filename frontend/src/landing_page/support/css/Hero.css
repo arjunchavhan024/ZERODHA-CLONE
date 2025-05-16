@@ -1,0 +1,122 @@
+.support-portal {
+  background-color: #387ed1;
+  padding: 50px 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin-top: 65px;
+}
+
+.support-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.support-header > div {
+  flex: 1 1 60%;
+  min-width: 300px;
+}
+.support-header h2 {
+  font-size: 22px;
+  margin: 35px 0 40px 0;
+}
+.support-header p {
+  font-size: 22px;
+  margin: 35px 0 40px 0;
+}
+.featured {
+  flex: 1 1 35%;
+  min-width: 250px;
+  margin-top: 20px;
+}
+
+.search-box {
+  display: flex;
+  margin: 20px 0;
+  max-width: 600px;
+  background: white;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 12px;
+  border: none !important;
+  outline: none;
+  font-size: 17px;
+  color: #333;
+}
+
+.search-btn {
+  background: white;
+  border: none;
+  padding: 0 20px;
+  cursor: pointer;
+  color: #666;
+  font-size: 18px;
+}
+
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.quick-links a {
+  color: white;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+/* This ensures "Kite user manual" breaks to a new line */
+.quick-links .break-link {
+  flex-basis: 100%;
+}
+
+.featured h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.featured ol {
+  padding-left: 20px;
+}
+
+.featured li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.featured a {
+  color: white;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.track-tickets-link {
+  float: right;
+  font-size: 14px;
+  text-decoration: underline;
+  margin-bottom: 10px;
+  display: block;
+  color: white;
+  font-size: 18px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .support-header {
+    flex-direction: column;
+  }
+
+  .track-tickets-link {
+    float: none;
+    text-align: right;
+    margin-top: -30px;
+  }
+}

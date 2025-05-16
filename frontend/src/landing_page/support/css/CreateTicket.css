@@ -1,0 +1,68 @@
+.create-ticket-row-h4 {
+  color: #666666;
+  font-size: 22px;
+  margin: 30px 0 50px 0;
+}
+.create-ticket-row-col-4 h4 {
+  font-size: 20px;
+  cursor: pointer;
+  color: #222222;
+  margin-bottom: 20px;
+}
+.create-ticket-row-col-4 h4:hover {
+  color: #387ed1 !important;
+}
+.create-ticket-row-col-4 a {
+  line-height: 2.5;
+  font-size: 15px;
+  margin-left: 22px;
+  text-decoration: none;
+  color: #387ed1;
+}
+.create-ticket-row-col-4 a:hover {
+  color: #666666;
+}
+
+/* Responsive styles for CreateTicket */
+
+@media (max-width: 992px) {
+  .create-ticket-row,
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .create-ticket-row-col-4 {
+    width: 100%;
+    max-width: 90%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .create-ticket-row-col-4 h4 {
+    font-size: 18px;
+  }
+
+  .create-ticket-row-col-4 a {
+    display: block;
+    margin-left: 0;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .create-ticket-row-h4 {
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 30px;
+  }
+
+  .create-ticket-row-col-4 h4 {
+    font-size: 16px;
+  }
+
+  .create-ticket-row-col-4 a {
+    font-size: 13px;
+    line-height: 2;
+  }
+}
